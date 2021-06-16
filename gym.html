@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym website</title>
+</head>
+<link rel="stylesheet" href="gym.css">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet"> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet"> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<style>
+    * {
+        color: white;
+    }
+
+    body {
+        /* display: inline-block; */
+        margin: 0%;
+        padding: 0%;
+        background: url('gyimages/gyym.jpg');
+        background-size: 100%;
+        background-color: black;
+        background-repeat: no-repeat;
+    }
+
+    .firstbox {
+        margin: 10px;
+        box-sizing: border-box;
+        width: 10%;
+        border: 2px solid white;
+        font-size: 55%;
+        font-family: 'ZCOOL KuaiLe', cursive;
+        line-height: 0%;
+        background-color: black;
+        border-radius: 15%;
+    }
+
+    .firstbox div h1 {
+        text-align: center;
+    }
+
+    .firstbox img {
+        padding-left: 25%;
+        width: 50%;
+    }
+
+    .secbox {
+        float: right;
+        box-sizing: border-box;
+        border: 2px solid white;
+        width: 45%;
+        height: 50px;
+        border-radius: 10%;
+        margin: -6% 27%;
+
+    }
+
+    .secbox ul {
+        box-sizing: border-box;
+        height: 50px;
+        width: 635px;
+        padding: 5px 2px 2px 47px;
+        margin: 2px 10px 10px 1px;
+        /* border: 2px solid rgb(196, 13, 13); */
+        list-style-type: none;
+    }
+
+    .navbar li a {
+        border: 2px solid rgb(235, 234, 238);
+        border-radius: 20%;
+        padding: 2px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar li {
+        display: inline-block;
+        /* border: 2px solid rgb(235, 6, 6);  */
+        border-radius: 15%;
+        text-align: center;
+        margin: 1% 4% 1% 6%;
+    }
+
+    .navbar :hover {
+        color: rgb(234, 234, 247);
+        text-decoration: underline;
+    }
+
+    .thirdbox {
+        float: right;
+        display: inline-block;
+        margin: -7% 2%;
+        box-sizing: border-box;
+        width: 10%;
+        border: 2px solid white;
+        border-radius: 8%;
+    }
+
+    .btn {
+        background-color: black;
+        margin: 7% 20% 7% 25%;
+        border-radius: 35%;
+        cursor: pointer;
+    }
+
+    .fourthbox {
+        text-align: center;
+        background-color: black;
+        float: right;
+        width: 30%;
+        border: 2px solid white;
+        border-radius: 5%;
+        height: 500px;
+        margin-right: 56%;
+        margin-top: 7%;
+    }
+
+    .formgrp input {
+        display: block;
+        background-color: black;
+        border-radius: 30%;
+        width: 50%;
+        margin: 35px auto;
+        text-align: center;
+    }
+
+    .formgrp button {
+        display: block;
+        margin: 12% auto;
+    }
+
+    #form {
+        font-family: 'Shadows Into Light', cursive;
+    }
+</style>
+
+<body>
+    <div class="firstbox">
+        <img src="gyimages/gym image.jpg" alt="">
+        <div>
+            <h1> AMN fitness</h1>
+        </div>
+    </div>
+    <div class="secbox">
+        <!-- <h1> this is second box</h1> -->
+        <ul class="navbar">
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> About</a></li>
+            <li><a href="#"> Classes</a></li>
+            <li><a href="#"> Trainers</a></li>
+
+        </ul>
+    </div>
+    <div class="thirdbox">
+        <button class="btn">Call us</button>
+        <button class="btn">Email us</button>
+    </div>
+    <div class="fourthbox">
+        <h1 id="form">sexy people joins sexy gym</h1>
+        <div class="formgrp">
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="formgrp">
+            <input type="text" placeholder="Enter your age">
+        </div>
+        <div class="formgrp">
+            <input type="text" placeholder="Enter your gender">
+        </div>
+        <div class="formgrp">
+            <input type="text" placeholder="Enter your weight">
+        </div>
+        <div class="formgrp">
+            <input type="text" placeholder="Enter your locality">
+        </div>
+        <div class="formgrp">
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
